@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="port" value="4723"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="jkstTest.JkstTest">
+        <methods>
+          <include name="RamdomTest"/>
+          <include name="SwipTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- jkstTest.JkstTest -->
+      <class name="jkstTest.TestNGLearn1">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- jkstTest.TestNGLearn1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

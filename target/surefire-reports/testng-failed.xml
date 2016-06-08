@@ -1,0 +1,4 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="0" name="Failed suite [Suite1]" parallel="false" annotations="JDK5">
+  <parameter name="port" value="4723"/>
+</suite>
